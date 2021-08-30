@@ -1,0 +1,89 @@
+.main-div{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    background-color: var(--primary-color);
+
+}
+
+.todo-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+    height: max-content;
+    width: 30%;
+    
+}
+
+.todo-div img{
+    height: 5rem;
+    width: 5rem;
+
+}
+
+.todo-div figcaption{
+    font-size: 18px;
+    font-weight:500;
+}
+
+.add-items{
+    margin-top: 1.2rem;
+    width: 80%;
+    display: flex;
+}
+
+.add-items input{
+    width: 90%;
+    padding: 3px;
+    border-radius: 2px;
+    border-style: none;
+    outline: none;
+    margin-right: 3%;
+}
+
+.add-btn{
+    
+    background-color: var(--secondary-color);
+    border-radius: 2px;
+}
+
+.show-items{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5rem;
+    width: 80%;
+}
+
+.item-disply{
+    display: flex;
+}
+
+.each-item{
+    display: flex;
+    background-color: whitesmoke;
+    width: 90%;
+    height: 1.5rem;
+    border-radius: 2px;
+    margin-right: 3%;
+    margin-bottom: 0.5rem;
+    justify-content: space-between;
+}
+
+.each-item h5{
+    line-height: 1.5rem;
+    margin-left: 3px;
+}
+
+.remove-btn{
+    background-color: var(--secondary-color);
+    border-radius: 2px;
+}
+
+.update-item{
+    
+    background-color: var(--secondary-color);
+    border-radius: 2px;
+}
+
