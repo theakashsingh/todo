@@ -12,7 +12,7 @@
   align-items: center;
   margin-top: 10%;
   height: max-content;
-  width: 30%;
+  flex-basis: 30%;
 }
 
 .todo-div img {
@@ -52,7 +52,7 @@
   width: 80%;
 }
 
-.item-disply {
+.item-display {
   display: flex;
 }
 
@@ -80,4 +80,19 @@
 .update-item {
   background-color: var(--secondary-color);
   border-radius: 2px;
+}
+
+@media (max-width: 750px) {
+  .todo-div {
+    flex-basis: 70%;
+  }
+
+  .todo-div img {
+    height: 3rem;
+    width: 3rem;
+  }
+
+  figcaption {
+    font-size: 18px;
+  }
 }

@@ -123,7 +123,7 @@ const Todo = () => {
           <div className="show-items">
             {items.map(elem => {
               return (
-                <div className="item-disply">
+                <div className="item-display">
                   <div className="each-item" key={elem.id}>
                     <h5>{elem.name}</h5>
                     <EditIcon
